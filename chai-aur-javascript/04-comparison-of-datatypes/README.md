@@ -19,7 +19,7 @@ console.log(1 <= 2); // true
 ```
 
 ## Comparing NULL with numbers
-- Avoid such conversions
+- Avoid such comparisons
 ```javascript
     console.log(null > 0); // false
     console.log(null < 0); // false
@@ -29,7 +29,7 @@ console.log(1 <= 2); // true
 - Comparisons converts null to a number, treating it as 0. That's why in third line `null >= 0` is true and `null > 0` is false
 
 ## Comparing UNDEFINED with numbers
-- Avoid such conversions
+- Avoid such comparisons
 ```javascript
 console.log(undefined > 0); // false
 console.log(undefined < 0); // false
